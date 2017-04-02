@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.flexbox-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+div.jumbotron {
+  margin-top: 10%;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+div.jumbotron a {
+  color: #79589F;
+}
+.purple-text {
+  color: #79589F;
+}
+.purple-button {
+  background-color: #79589F;
+  border-color: #79589F;
+  color: white;
+}
+.purple-button:hover,
+.purple-button:focus {
+  color: white !important;
+}
